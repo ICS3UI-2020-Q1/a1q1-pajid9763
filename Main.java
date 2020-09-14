@@ -15,13 +15,14 @@ public class Main {
     int Celsius;
 
     // ask the user what degrees in Celsius they want converted to Fahrenheit
-    System.out.println("Insert a degrees in Celsius that you want converted to Fahrenheit: ");
+    System.out.println("Please enter a temperature you would like to convert in degrees Celsius.");
     // initialize the name variable with Celsius
     Celsius = input.nextInt();
    
     // declare and calculate their degrees Celsius into Fahrenheit
     int Fahrenheit = (Celsius * 9)/5 + 32;
     // tell the user their degrees in Fahrenheit
-    System.out.println(Celsius + "C " + "is equal to " + Fahrenheit + "F");
+    System.out.println(Celsius + "C " + "is the same as " + Fahrenheit + "F");
+
   }
 }
